@@ -41,28 +41,41 @@ strong {
 
 
 /* EXERCÍCIO 2: layout da página */
+html, body, #recipiente {
+  min-height: 100vh;
+}
+
+body{
+  margin: 0;
+}
+
 #recipiente {
-  /* layout da página aqui */
-  /* ... */
-  /* ... */
-  /* ... */
-  /* ... */
+  margin-left:  auto;
+  margin-right: auto;
+  width: 800px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 154px 1fr;
+  grid-template-areas: 
+    "section header"
+    "section main"
+    "section footer";
 }
 
 #cabecalho-pagina {
-
+  grid-area: header;
 }
 
 #lateral {
-
+  grid-area: section;
 }
 
 #cardapio {
-
+  grid-area: main;
 }
 
 #rodape-pagina {
-
+  grid-area: footer;
 }
 
 
