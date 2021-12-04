@@ -104,7 +104,15 @@ body{
 }
 
 /* EXERCÍCIO 4: cada item do menu */
+#cardapio {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 article {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2em;
 }
 
 
