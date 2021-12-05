@@ -10,7 +10,7 @@
   --cor-border-out: #d3d3d3;
   --cor-cardapio: rgba(255, 255, 255, 0.2);
   --cor-cardapio-border:#aac0ae;
-  --cor-text: #333;
+  --cor-text: #333333;
   --cor-cabecalho:#e90c0c;
 }
 
@@ -44,6 +44,7 @@ strong {
   font-size: 18px;
   color: var(--cor-text);
   margin-top: 30px;
+  font-family: "Verdana", "OpenSans", sans-serif;
 }
 
 #cardapio article {
